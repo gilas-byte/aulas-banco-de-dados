@@ -1,0 +1,2 @@
+baixe as extensões necessarias na loja do vs code / antigravity, pra poder rodar bem, como o sql tools com o addon
+do postgresql.
