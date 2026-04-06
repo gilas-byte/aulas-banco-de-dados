@@ -1,2 +1,5 @@
 baixe as extensões necessarias na loja do vs code / antigravity, pra poder rodar bem, como o sql tools com o addon
 do postgresql.
+
+IMPORTANTE!
+    é bom ter o postgresql baixado no seu pc, e também ja ter criado a database "codigos_senai" nele, pra poder rodar 100%
