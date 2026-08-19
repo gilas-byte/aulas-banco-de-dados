@@ -109,10 +109,11 @@ CREATE TRIGGER tg_fluxo2
 AFTER
 UPDATE ON vendas FOR EACH ROW EXECUTE FUNCTION trg_fluxo2_update();
 -- ====================================================================================
--- 4. TESTES DE VALIDAÇÃO (Para incluir no PDF)
+-- 4. TESTES DE VALIDAÇÃO
 -- ====================================================================================
 -- TESTE DO FLUXO 1: Inserindo uma venda nova com status 'Completed' (Total > 300)
--- Obs: Assumindo que os IDs de cliente e produto '1' existam gerados no seu script base.
+-- Obs: Assumindo que os IDs de cliente e produto '1' existam gerados no seu script base. 
+TRUNCATE TABLE vendas, sistema_logs, historico_cancelamentos CASCADE; -- Limpa dados para testes
 INSERT INTO vendas (
         order_id,
         id_cliente,

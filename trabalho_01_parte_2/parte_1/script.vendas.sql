@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS amazon_sales_geral (
     metodo_pagamento VARCHAR(50),
     status VARCHAR(50)
 );
--- Simulando a importação do seu arquivo CSV para termos dados iniciais
+-- Simulando a importação do meu arquivo CSV para termos dados iniciais
 INSERT INTO amazon_sales_geral
 VALUES (
         'ORD0001',
@@ -203,7 +203,6 @@ VALUES (
         'Pix',
         'Completed'
     ) ON CONFLICT (order_id) DO NOTHING;
--- Consultas para o PDF (mostram que os dados foram separados corretamente)
 SELECT *
 FROM clientes
 ORDER BY id_cliente DESC
