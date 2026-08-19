@@ -1,3 +1,26 @@
+# =========================
+# AMBIENTES E EDITORES
+# =========================
 .venv/
+venv/
 .vscode/
+.idea/
+
+# =========================
+# ARQUIVOS DE SESSAO DO SQLTOOLS
+# Scratchpad do editor, nao e codigo de entrega
+# =========================
 *.session.sql
+
+# =========================
+# DUMPS E BACKUPS DO POSTGRES
+# =========================
+*.backup
+*.dump
+*.sql.gz
+
+# =========================
+# SISTEMA OPERACIONAL
+# =========================
+.DS_Store
+Thumbs.db

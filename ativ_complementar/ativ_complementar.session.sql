@@ -1,1 +1,0 @@
-TRUNCATE TABLE clientes, servicos, telefones, ordens_serv, pagamentos, itens_os RESTART IDENTITY CASCADE;
