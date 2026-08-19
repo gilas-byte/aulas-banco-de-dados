@@ -46,7 +46,7 @@ This is a public repository for my **Database classes** at **SENAI**, so you can
 ## Suit yourself and clone the repository
 
 ```bash
-git clone "https://github.com/Gilasexe/B.D._Exercicios"
+git clone "https://github.com/gilas-byte/aulas-banco-de-dados"
 ```
 
 and if the repository gets an update:
@@ -119,7 +119,7 @@ Se preferir a interface gráfica, o VS Code com a extensão **SQLTools** + drive
 ## Sinta-se à vontade para clonar o repositório
 
 ```bash
-git clone "https://github.com/Gilasexe/B.D._Exercicios"
+git clone "https://github.com/gilas-byte/aulas-banco-de-dados"
 ```
 
 e se o repositório tiver alguma atualização:
